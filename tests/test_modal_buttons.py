@@ -21,6 +21,9 @@ def test_skills(browser):
     open_button_skills = browser.find_element(By.ID, value="button1")
     open_button_skills.click()
 
+    WebDriverWait(browser, timeout=10, poll_frequency=0.5).until(EC.visibility_of_element_located(
+        (By.CSS_SELECTOR, ".swal-title")))
+
     modal_skills = browser.find_element(By.CSS_SELECTOR, value='[class="swal-modal"]')
     close_button_skills = browser.find_element(By.CSS_SELECTOR, value='[class*="--confirm"]')
     assert close_button_skills.text == "NOT BAD"
@@ -39,6 +42,9 @@ def test_motto(browser):
 
     open_button_motto = browser.find_element(By.ID, value="button2")
     open_button_motto.click()
+
+    WebDriverWait(browser, timeout=10, poll_frequency=0.5).until(EC.visibility_of_element_located(
+        (By.CSS_SELECTOR, ".swal-title")))
 
     modal_motto = browser.find_element(By.CSS_SELECTOR, value='[class="swal-modal"]')
     close_button_motto = browser.find_element(By.CSS_SELECTOR, value='[class*="--confirm"]')
