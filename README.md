@@ -1,7 +1,7 @@
 # python_selenium
 [![Header](https://github.com/GoodyrevQA/python_selenium/blob/main/assets/logo.png)](https://github.com/GoodyrevQA/python_selenium)  
 
-### Languages and Tool used:
+### Languages and Tools used:
 [![Visual](https://img.shields.io/badge/-Visual_Studio_Code-24292f??style=for-the-badge&logo=Visualstudiocode&logoColor=47c5fb)](https://github.com/GoodyrevQA)
 [![Python](https://img.shields.io/badge/-Python-24292f??style=for-the-badge&logo=Python&logoColor=47c5fb)](https://github.com/GoodyrevQA/python_tg_bot)
 [![Selenium](https://img.shields.io/badge/-Selenium-24292f??style=for-the-badge&logo=Selenium&logoColor=00bf0d)](https://github.com/GoodyrevQA/python_selenium)
