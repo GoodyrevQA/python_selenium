@@ -1,5 +1,4 @@
 # python_selenium
-
 [![Header](https://github.com/GoodyrevQA/python_selenium/blob/main/assets/logo.png)](https://github.com/GoodyrevQA/python_selenium)  
 
 ### Languages and Tool used:
@@ -21,9 +20,4 @@
  - отключает расширения
 - декоратор
 - WebDriverWait - ожидание появления элементов
-
-
-
-
-
 
